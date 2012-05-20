@@ -14,4 +14,4 @@ $(call inherit-product, device/lge/thunderc_common/thunderc_common.mk)
 # Add in model specific kernel modules
 PRODUCT_COPY_FILES += \
     device/lge/thunderc_VM670/files/kernel/wireless.ko:system/lib/modules/wireless.ko \
-    device/lge/thunderc_VM670/files/kernel/tun.ko:system/lib/modules/tun.ko
+    device/lge/thunderc_VM670/files/kernel/librasdioif.ko:system/lib/modules/librasdioif.ko
